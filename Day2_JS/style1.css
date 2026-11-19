@@ -24,7 +24,7 @@ body {
 .box {
   cursor: pointer;
   color: #1e0342;
-  transition: background-color 0.3s ease;
+  transition: background-color 3s ease;
 }
 
 .box:hover {
