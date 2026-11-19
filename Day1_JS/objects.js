@@ -21,6 +21,7 @@ let square={
     area: CalcArea
 
     }
+    rectangle.area()
 
 
 
