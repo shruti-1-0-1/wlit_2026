@@ -16,3 +16,12 @@ rectangle ={
 }
 console.log("Area of square is " + square.area())
 console.log("Area of rectangle is " + rectangle.area())
+
+//Lesson Learnt
+// Regular function
+// this ← object that calls the function
+// square.area() → this = square
+
+// Arrow function
+// this ← surrounding scope
+// square.area() → this is inherited, not square
